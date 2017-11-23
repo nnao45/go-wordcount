@@ -1,17 +1,17 @@
 package wordcount
 
-func WC(runes []rune, word string) {
+func WC(runes []rune, word string) (i int){
         var k int
-        var i int
         for _, r := range text {
-                if r == runeSlice[k] {
-                        if k < len(runeSlice)-1 {
+                if r == runes[k] {
+                        if k < len(runes)-1 {
                                 k++
-                        } else if k == len(runeSlice)-1 {
+                        } else if k == len(runes)-1 {
                                 i++
                         }
                 } else {
                         k = 0
                 }
         }
+        return
 }
