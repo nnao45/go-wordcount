@@ -9,6 +9,7 @@ func WC(word string, runes string) (i int){
                                 k++
                         } else if k == len(rs)-1 {
                                 i++
+                                k = 0
                         }
                 } else {
                         k = 0
