@@ -14,7 +14,7 @@ var word = `
 var kensaku = "たけ"
 
 func main() {
-        fmt.Printf("%d回\n", wordcount.WC(word, kensaku)) //=>4回
+        fmt.Printf("%d回\n", wordcount.WC(word, kensaku)) //=> 4回
 }
 ```
 
