@@ -14,7 +14,7 @@ var word = `
 `
 
 func main() {
-        fmt.Printf("%d回\n", wordcount.WC(runes, word))
+        fmt.Printf("%d回\n", wordcount.WC(runes, word)) //=> 4回
 }
 ```
 
