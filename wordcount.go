@@ -1,13 +1,13 @@
 package wordcount
 
 func WC(runes string, word string) (i int){
-        runes = []rune(runes)
+        rs = []rune(runes)
         var k int
         for _, r := range word {
-                if r == runes[k] {
-                        if k < len(runes)-1 {
+                if r == rs[k] {
+                        if k < len(rs)-1 {
                                 k++
-                        } else if k == len(runes)-1 {
+                        } else if k == len(rs)-1 {
                                 i++
                         }
                 } else {
